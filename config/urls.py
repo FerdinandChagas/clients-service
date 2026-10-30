@@ -24,7 +24,7 @@ from users.api.views import UserProfileExampleViewSet
 
 router = SimpleRouter()
 
-router.register("users", UserProfileExampleViewSet, basename="users")
+router.register("user", UserProfileExampleViewSet, basename="users")
 router.register("clients", ClientViewSet, basename="clients")
 
 urlpatterns = [
