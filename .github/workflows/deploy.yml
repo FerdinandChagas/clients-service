@@ -9,7 +9,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: clients-service-runner
+    runs-on: self-hosted
 
     steps:
       - name: Checkout do código
